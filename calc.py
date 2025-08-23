@@ -2,7 +2,7 @@
 
 print ("claculator")
 print ("_"*30)
-print ("the choices \n1. Addition \n2.subtraction \n3.multiplication \n4.division")
+print ("the choices \n1. Addition \n2.subtraction \n3.multiplication \n4.division \n5.power \n6.modulus")
 choice = int(input("enter your choice : "))
 a = int(input("enter the first number : "))
 b = int(input("enter the second number : "))
@@ -14,4 +14,7 @@ elif choice == 3:
     print("multiplecation is : ",a*b)
 elif choice == 4:
     print(f"division is : {a/b}")
-
+elif choice == 5:
+    print(f"power is : {a**b}")
+elif choice == 6:
+    print(f"modulus is : {a%b}")
